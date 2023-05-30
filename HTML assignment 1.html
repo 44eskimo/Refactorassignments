@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<style>
+    .bt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        height: 110vh;
+        margin: 30px;
+    }
+    .lefto {
+        
+       align-self: flex-start;
+    }
+    .righto {
+        align-self: flex-end;
+    }
+    .cent {
+        align-self: center;
+    }
+    .para {
+        color: green;
+        align-self: self-start;
+    }
+    .trip {
+        font-family: 'trebuchet';
+        align-self: flex-start;
+    }
+    .head {
+        align-self: self-start;
+        font-weight: 200;
+    }
+    .para2 {
+        align-self: flex-start;
+        font-family: 'Arial';
+        font-size: 10px;
+        color:white;
+    }
+    .logo {
+        height: 150px;
+    }
+    .btn {
+        height: 40px;
+        width: 100px;
+        background-color: aqua;
+        color: white;
+        border-width: 1px;
+        margin: 5px;
+        border-radius: 2px;
+        font-weight: 700;
+        border-style: 1px solid black;
+    }
+    .marging-left {
+        margin-left: 5px;
+    }
+    .marging-right {
+        margin-right: 5px;
+    }
+</style>
+<body>
+    <div class="bt-container">
+        <div class="lefto">
+            <p class="marging-left">This paragraph is left aligned.</p>
+        </div>
+        <div class="cent">
+            <p>This paragraph is center aligned.</p>
+        </div>
+        <div class="righto marging-right">
+            <p>This paragraph is right aligned.</p>
+        </div>
+        <p class="para marging-left">This Text is Green</p>
+        <p class="trip marging-left">This is Trebuchet</p>
+        <h1 class="head marging-left">This is big text</h1>
+        <p class="para2 marging-left">This text is white, arial and small</p>
+        <p class="lefto marging-left">This is a link to <span> <a href="www.google.com">Stevenson High School</a></span></p>
+        <p class="lefto marging-left">This is an email link to <span><a href="www.google.com">Mrs Smith</a></span></p>
+        <img src="https://i.ibb.co/SBtxm3C/Pug-Canis-familiaris-face.jpg" alt="Pug-Canis-familiaris-face" border="0" class="logo">
+        <button class="btn">SHS</button>
+    </div>
+</body>

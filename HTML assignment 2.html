@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        table {
+
+            width: 70px;
+        }
+
+        .bt-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table {
+            width: 800px;
+            border-collapse: collapse;
+            border: 1px solid #000;
+        }
+
+        td {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 140px;
+        }
+
+        .lefto {
+            text-align: left;
+        }
+
+        .righto {
+            text-align: right;
+        }
+
+        .centero {
+            text-align: center;
+        }
+
+        .bolding {
+            border: 2px solid #000;
+        }
+
+        .full {
+            width: 800px;
+            height: 18px;
+
+        }
+
+        .marg {
+            margin-top: 50px;
+            border: 1px solid #000;
+        }
+
+        .heighted {
+            height: 18px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="bt-container">
+        <table class="marg">
+           
+            <tr>
+                <td class="lefto ">left</td>
+                <td class="centero ">center</td>
+                <td class="righto ">right</td>
+            </tr>
+            <tr>
+                <td class="lefto ">left</td>
+                <td class="centero ">center</td>
+                <td class="righto ">right</td>
+            </tr>
+            <tr>
+                <td class="lefto ">left</td>
+                <td class="centero ">center</td>
+                <td class="righto ">right</td>
+            </tr>
+        </table>
+
+
+        <br>
+       
+
+        <table style="margin-top: 40px;">
+            <!-- <thead>
+                <tr><td></td></tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td class="heighted" colspan="6"></td>
+                </tr>
+                <tr>
+                    <td rowspan="5"> </td>
+                </tr>
+                <tr>
+                    <td class="heighted"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="heighted"></td>
+                    <td colspan="3" rowspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="heighted"></td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td class="heighted"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="heighted" colspan="6"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <table class="marg">
+            <tr class="heighted">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="heighted">
+                <td rowspan=4></td>
+                <td></td>
+                <td rowspan=4></td>
+            </tr>
+
+            <tr class="heighted">
+                <td></td>
+            </tr>
+            <tr class="heighted">
+                <td></td>
+            </tr>
+            <tr class="heighted">
+                <td></td>
+            </tr>
+
+            <tr class="heighted">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+        </table>
+
+        <br>
+        <style>
+            .heighted2 {
+                height: 32px;
+            }
+
+            .heighted3 {
+                height: 90px;
+            }
+
+            .greenish {
+                background-color: greenyellow;
+                height: 28px;
+            }
+
+            .blueish {
+                background-color: blueviolet;
+            }
+            .imp {
+                border-collapse: separate !important;
+            }
+            
+        </style>
+
+        <table class="marg imp">
+            <tr class="heighted2 greenish">
+                <td></td>
+
+            </tr>
+        </table>
+        <style>
+            .img {
+                height: 200px;
+                margin-top: 10px;
+            }
+        </style>
+
+        <table class="imp">
+            <tr class="heighted2">
+                <td rowspan=4></td>
+                <td rowspan=4>
+                    <img src="https://i.ibb.co/z4jxC6G/frog-2240764-960-720.jpg" alt="frog-2240764-960-720" border="0"
+                        class="img">
+                </td>
+                <td rowspan=4></td>
+            </tr>
+
+        </table>
+
+        <table class="imp">
+            <tr class="heighted2 blueish" >
+                <td></td>
+
+            </tr>
+        </table>
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

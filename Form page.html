@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .marg {
+            margin-top: 5px;
+        }
+        .btn {
+            margin-top: 5px;
+        }
+        .des {
+            margin-top: 5px;
+        }
+        .bt-container {
+            background-color: rgb(185, 185, 185);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="bt-container">
+
+    <h1>Form</h1>
+    <form action="results.html" method="GET">
+        <div class="marg">
+            <label>First name: </label>
+        <input type="text" placeholder="First name" required>
+        </div>
+
+        <div class="marg">
+            <label>Second name: </label>
+            <input type="text" placeholder="Second name" required>
+        </div>
+
+    <div>
+        Gender:
+        <div>
+            <label>Male</label>
+            <input type="radio" placeholder="Username" name="inp" checked required>
+        
+        
+            <label>Female</label>
+            <input type="radio" placeholder="Password" name="inp" >
+        </div>
+        
+    </div>
+    
+    <div class="marg">
+        <label for="file" >File select</label>
+        <input id="file" type="file" required >
+    </div>
+    <div class="marg">
+        <label for="des">Description:</label>
+        <textarea id="des" class="des">
+        </textarea>
+    </div>
+    <div class="marg">
+        Select Country:
+        <select>
+            <option>India</option>
+            <option>Pakistan</option>
+            <option selected>Japan</option>
+            <option>Russia</option>
+        </select>
+    </div>
+
+
+
+       
+
+        <div class="marg">
+            
+            <button class="btn" type="reset" >Reset</button>
+            <button class="btn" type="submit">Submit</button>
+
+        </div>
+       
+    </form>
+</div>
+</body>
+</html>
